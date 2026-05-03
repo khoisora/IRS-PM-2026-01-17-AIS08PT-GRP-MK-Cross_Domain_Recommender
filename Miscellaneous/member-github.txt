@@ -5,4 +5,4 @@ Project Title: Single-Domain and Cross-Domain Recommendation System for Movies a
 Members:
   Vo Minh Khoi    A0339229W
 
-GitHub Repository: https://github.com/khoisora/cross-domain-recommender
+GitHub Repository: https://github.com/khoisora/IRS-PM-2026-05-03-IS03PT-GRP-MK-CrossRec
