@@ -1,8 +1,8 @@
-Group Name: MK
+Group Name: GRP21
 Project Name: CrossRec
 Project Title: Single-Domain and Cross-Domain Recommendation System for Movies and Video Games
 
 Members:
   Vo Minh Khoi    A0339229W
 
-GitHub Repository: https://github.com/khoisora/IRS-PM-2026-05-03-IS03PT-GRP-MK-CrossRec
+GitHub Repository: https://github.com/khoisora/IRS-PM-2026-05-03-GRP21-CrossRec
