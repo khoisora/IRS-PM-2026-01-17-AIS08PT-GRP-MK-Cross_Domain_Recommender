@@ -103,21 +103,6 @@ make export
 
 `IRS-PM-2026-01-17-AIS08PT-GRP-MK-Cross_Domain_Recommender-Group-Report.pdf`
 
-The report covers:
-- Executive Summary
-- Introduction (Background, Problem Statement, Market Research, Methodology)
-- Data (sources, schema, splitting protocols)
-- Methodology (single-domain, cross-domain, and content-based models)
-- Experiments and Results (7 lessons)
-- System Design (architecture, routing, ML pipeline, refresh)
-- Conclusion and Future Work
-- References
-- Appendix A: Project Proposal
-- Appendix B: Mapped System Functionalities against MR / RS / CGS modules
-- Appendix C: Installation & User Guide
-- Appendix D: Personal Contribution
-- Appendix E: AI Tools Usage Declaration
-
 ---
 
 ## SECTION 7 : MISCELLANEOUS
