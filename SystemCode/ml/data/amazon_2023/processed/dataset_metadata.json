@@ -1,0 +1,21 @@
+{
+  "processing_date": "2026-04-19T21:42:38.700618",
+  "pair": "movie_game",
+  "cohort_filter": "users >= 10 total interactions, sampled to ~1000K users",
+  "total_users": 75844,
+  "total_items": 56040,
+  "total_ratings": 1723599,
+  "n_movie_ratings": 1574426,
+  "n_game_ratings": 149173,
+  "n_movie_items": 45250,
+  "n_game_items": 10790,
+  "n_movie_users": 74068,
+  "n_game_users": 24346,
+  "overlap_users": 22570,
+  "overlap_pct": 29.8,
+  "movie_only_users": 51498,
+  "game_only_users": 1776,
+  "user_k_core": 10,
+  "movie_item_k_core": 20,
+  "game_item_k_core": 10
+}

@@ -1,0 +1,34 @@
+# Core ML
+numpy<2.0.0
+pandas>=2.0
+torch>=2.1
+scipy>=1.10
+
+# Evaluation & visualization
+matplotlib>=3.8
+seaborn>=0.13
+
+# Utilities
+scikit-learn>=1.3
+tqdm>=4.60
+
+# Demo backend (FastAPI app served by `make dev`)
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.0
+
+# Graph (for LightGCN)
+torch-geometric>=2.3
+
+# Embeddings (for SBERT, Lesson 7)
+sentence-transformers>=2.7
+transformers>=4.40
+
+# Testing
+pytest>=7.0
+
+# Recommendations
+cornac>=2.2
+recbole>=1.2  # required by vendored ml/models/recbole_cdr (used in `make export`)
+kmeans_pytorch  # transitive dep of recbole.model.general_recommender
+pyarrow  # parquet engine for pandas (used by export pipeline)

@@ -1,0 +1,8 @@
+Group Name: MK
+Project Name: CrossRec
+Project Title: Single-Domain and Cross-Domain Recommendation System for Movies and Video Games
+
+Members:
+  Vo Minh Khoi    A0339229W
+
+GitHub Repository: https://github.com/khoisora/cross-domain-recommender

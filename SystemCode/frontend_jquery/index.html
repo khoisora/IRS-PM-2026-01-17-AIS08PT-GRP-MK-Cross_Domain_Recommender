@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CrossRec — Hybrid Movie & Game Recommender</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=2">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav hidden" id="nav">
+    <div class="nav-inner">
+      <div class="nav-left">
+        <span id="nav-username"></span>
+      </div>
+      <span class="logo" id="nav-logo">CrossRec</span>
+      <div class="nav-right">
+        <button class="btn-icon" id="btn-search" title="Search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+        <button class="btn" onclick="navigateTo('/')">Switch User</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SEARCH OVERLAY -->
+  <div class="search-overlay" id="search-overlay">
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="Search movies & games..." oninput="doSearch(this.value)">
+      <div class="search-results" id="search-results"></div>
+    </div>
+  </div>
+
+  <!-- PAGES -->
+  <div id="page-home"></div>
+  <div id="page-recs" class="hidden"></div>
+  <div id="page-detail" class="hidden"></div>
+
+  <script src="app.js?v=2"></script>
+  <script src="home.js?v=2"></script>
+  <script src="recs.js?v=2"></script>
+  <script src="detail.js?v=2"></script>
+  <script src="search.js?v=2"></script>
+</body>
+</html>

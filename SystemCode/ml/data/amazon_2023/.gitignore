@@ -1,0 +1,5 @@
+# Ignore raw Amazon dataset (huge JSONL.gz files, rebuildable from public dump).
+# Processed parquet files and movies_games.db ARE tracked so `make export`
+# works from a fresh clone.
+raw/
+!raw/.gitkeep
