@@ -39,7 +39,7 @@ SQLite persistence, an hourly retrain scheduler, and a packaged Docker image.
 
 | Official Full Name | Student ID | Work Items (Who Did What) | Email |
 | :--- | :---: | :--- | :--- |
-| Vo Minh Khoi | A0339229W | End-to-end: data pipeline, model implementations & benchmarking, evaluation framework, co-occurrence rerank & routing, FastAPI + SQLite + jQuery demo, Docker packaging, report & videos | mr.khoivominh@gmail.com |
+| Vo Minh Khoi | A0339229W | End-to-end: data pipeline, model implementations & benchmarking, evaluation framework, co-occurrence rerank & routing, FastAPI + SQLite + jQuery demo, Docker packaging, report & videos | khoi.vominh@u.nus.edu |
 
 ---
 
