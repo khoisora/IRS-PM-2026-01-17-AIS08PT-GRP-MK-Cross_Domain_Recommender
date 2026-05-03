@@ -124,7 +124,15 @@ class DemoStore:
         self.cooc: dict[str, dict[str, float]] = json.loads((DEMO_DIR / "cooc.json").read_text())
 
         # --- Train ratings ---
-        raw_ratings: list[dict] = json.loads((DEMO_DIR / "train_ratings.json").read_text())
+        # Prefer the gzipped artifact (small enough to ship in git); fall back
+        # to the uncompressed .json if a fresh export hasn't gzipped yet.
+        gz_path = DEMO_DIR / "train_ratings.json.gz"
+        if gz_path.exists():
+            import gzip
+            with gzip.open(gz_path, "rt") as f:
+                raw_ratings: list[dict] = json.load(f)
+        else:
+            raw_ratings = json.loads((DEMO_DIR / "train_ratings.json").read_text())
         self.user_ratings: dict[str, list[dict]] = {}
         for r in raw_ratings:
             self.user_ratings.setdefault(r["user_id"], []).append(r)

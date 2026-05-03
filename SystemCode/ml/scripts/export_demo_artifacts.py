@@ -113,7 +113,11 @@ def export_catalog(data_sd, data_cd) -> None:
             "rating": float(r["rating"]),
             "domain": str(r.get("domain", "")),
         })
-    json.dump(ratings, open(OUT / "train_ratings.json", "w"))
+    import gzip
+    with gzip.open(OUT / "train_ratings.json.gz", "wt") as f:
+        json.dump(ratings, f)
+    # Best-effort: drop a stale uncompressed copy if a previous export wrote one.
+    (OUT / "train_ratings.json").unlink(missing_ok=True)
     logger.info("Exported %d train ratings", len(ratings))
 
     conn.close()
