@@ -2,7 +2,7 @@
 
 **[ Naming Convention ]** CourseCode-StartDate-BatchCode-TeamName-ProjectName
 
-**[ This submission ]** `IRS-PM-2026-05-03-GRP21-CrossRec`
+**[ This submission ]** `IRS-PM-2026-01-17-AIS08PT-GRP-MK-Cross_Domain_Recommender`
 
 ---
 
@@ -53,9 +53,9 @@ SQLite persistence, an hourly retrain scheduler, and a packaged Docker image.
 
 Two recorded videos in the `Video/` folder:
 
-* **Promotion video** — `Video/IRS-PM-2026-05-03-GRP21-CrossRec-promotion.mp4`
+* **Promotion video** — `Video/IRS-PM-2026-01-17-AIS08PT-GRP-MK-Cross_Domain_Recommender-promotion.mp4`
   (business pain & value, use case demo)
-* **Technical / system-design video** — `Video/IRS-PM-2026-05-03-GRP21-CrossRec-system.mp4`
+* **Technical / system-design video** — `Video/IRS-PM-2026-01-17-AIS08PT-GRP-MK-Cross_Domain_Recommender-system.mp4`
   (architecture, recommender routing, ML pipeline)
 
 ---
@@ -107,7 +107,7 @@ make export
 
 `Refer to project report at Github Folder: ProjectReport/`
 
-`IRS-PM-2026-05-03-GRP21-CrossRec-Group-Report.pdf`
+`IRS-PM-2026-01-17-AIS08PT-GRP-MK-Cross_Domain_Recommender-Group-Report.pdf`
 
 The report covers:
 - Executive Summary
