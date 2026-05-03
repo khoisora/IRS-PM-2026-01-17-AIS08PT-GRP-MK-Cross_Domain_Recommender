@@ -1,10 +1,4 @@
-### IRS Practice Module — Group Project Submission
 
-**[ Naming Convention ]** CourseCode-StartDate-BatchCode-TeamName-ProjectName
-
-**[ This submission ]** `IRS-PM-2026-01-17-AIS08PT-GRP-MK-Cross_Domain_Recommender`
-
----
 
 ## SECTION 1 : PROJECT TITLE
 ## Cross-Domain Recommender System — Movies → Video Games
